@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-playfair: var(--font-playfair), serif;
+}
+
+/* Waitlister embed form overrides to match Digero design system */
+.waitlister-form input[type="email"] {
+  font-family: var(--font-inter), "Inter", "DM Sans", sans-serif !important;
+  border-radius: 0.75rem !important;
+  border: 2px solid #e7e5e4 !important;
+  padding: 0.875rem 1rem !important;
+  font-size: 1rem !important;
+  transition: border-color 0.2s !important;
+}
+
+.waitlister-form input[type="email"]:focus {
+  border-color: #f97316 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1) !important;
+}
+
+.waitlister-form button[type="submit"] {
+  font-family: var(--font-inter), "Inter", "DM Sans", sans-serif !important;
+  background-color: #f97316 !important;
+  color: white !important;
+  font-weight: 600 !important;
+  border-radius: 0.75rem !important;
+  padding: 0.875rem 1.5rem !important;
+  font-size: 1rem !important;
+  transition: background-color 0.2s !important;
+}
+
+.waitlister-form button[type="submit"]:hover {
+  background-color: #c2410c !important;
+}
