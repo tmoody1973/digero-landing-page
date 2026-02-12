@@ -23,6 +23,12 @@ export function Navbar() {
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-6">
           <Link
+            href="/proposal"
+            className="text-sm text-stone-300 hover:text-white transition-colors"
+          >
+            Hackathon Proposal
+          </Link>
+          <Link
             href="/about"
             className="text-sm text-stone-300 hover:text-white transition-colors"
           >
@@ -68,6 +74,13 @@ export function Navbar() {
       {/* Mobile menu */}
       {open && (
         <div className="md:hidden bg-stone-950 border-t border-stone-800 px-6 py-4 space-y-3">
+          <Link
+            href="/proposal"
+            onClick={() => setOpen(false)}
+            className="block text-sm text-stone-300 hover:text-white"
+          >
+            Hackathon Proposal
+          </Link>
           <Link
             href="/about"
             onClick={() => setOpen(false)}
