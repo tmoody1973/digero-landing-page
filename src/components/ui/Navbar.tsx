@@ -29,6 +29,12 @@ export function Navbar() {
             Hackathon Proposal
           </Link>
           <Link
+            href="/docs"
+            className="text-sm text-stone-300 hover:text-white transition-colors"
+          >
+            Tech Docs
+          </Link>
+          <Link
             href="/about"
             className="text-sm text-stone-300 hover:text-white transition-colors"
           >
@@ -80,6 +86,13 @@ export function Navbar() {
             className="block text-sm text-stone-300 hover:text-white"
           >
             Hackathon Proposal
+          </Link>
+          <Link
+            href="/docs"
+            onClick={() => setOpen(false)}
+            className="block text-sm text-stone-300 hover:text-white"
+          >
+            Tech Docs
           </Link>
           <Link
             href="/about"

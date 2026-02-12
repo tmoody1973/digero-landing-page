@@ -323,8 +323,8 @@ export default function Proposal() {
                   Nebula proved it.
                 </p>
                 <p className="text-stone-600 leading-relaxed mt-1">
-                  The creator-owned streaming platform raised $50M+ using this
-                  exact structure for educational YouTube. Digero applies the same
+                  The creator-owned streaming platform proved this
+                  model works for educational YouTube. Digero applies the same
                   economics to food &mdash; a category with higher engagement
                   frequency (people cook daily) and stronger purchase intent
                   (grocery spending, kitchen equipment).
