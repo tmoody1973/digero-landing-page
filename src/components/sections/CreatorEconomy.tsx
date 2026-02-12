@@ -17,7 +17,7 @@ const tiers = [
 
 export function CreatorEconomy() {
   return (
-    <section className="bg-stone-950 py-20 md:py-32">
+    <section id="creators" className="bg-stone-950 py-20 md:py-32">
       <div className="max-w-7xl mx-auto px-6">
         <AnimatedSection>
           <div className="flex items-start gap-4">

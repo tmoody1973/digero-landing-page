@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -16,14 +17,18 @@ export function Footer() {
           </div>
 
           <div className="flex flex-col md:flex-row items-center gap-6 text-sm text-stone-400">
-            <a
-              href="https://gist.githubusercontent.com/tmoody1973/4d2932325e2490d1e2657c2bc75d7821/raw/privacy-policy.html"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/about"
+              className="hover:text-orange-500 transition-colors"
+            >
+              About the Developer
+            </Link>
+            <Link
+              href="/privacy"
               className="hover:text-orange-500 transition-colors"
             >
               Privacy Policy
-            </a>
+            </Link>
             <a
               href="mailto:tarikjmoody@gmail.com"
               className="hover:text-orange-500 transition-colors"

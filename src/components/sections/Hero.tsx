@@ -89,6 +89,22 @@ export function Hero() {
           meals, generate shopping lists, and cook hands-free.
         </p>
 
+        {/* Creator differentiator callout */}
+        <a
+          href="#creators"
+          className="mt-6 inline-flex items-center gap-3 bg-stone-950 text-white rounded-full px-5 py-3 group hover:bg-stone-800 transition-colors"
+        >
+          <span className="bg-orange-500 text-white text-xs font-heading font-bold uppercase tracking-wider px-2.5 py-1 rounded-full">
+            Only app
+          </span>
+          <span className="text-sm font-medium">
+            that pays creators 50% of revenue
+          </span>
+          <span className="text-orange-500 group-hover:translate-x-1 transition-transform">
+            &rarr;
+          </span>
+        </a>
+
         {/* Waitlist form */}
         <div className="mt-8 max-w-md">
           <WaitlistForm variant="dark" />
